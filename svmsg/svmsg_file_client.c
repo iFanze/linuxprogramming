@@ -1,6 +1,6 @@
 #include "svmsg_file.h"
 
-#include <sys/msg.h>        // for: msgget()、msgctl()、msgsnd()、IPC_PRIVATE...
+#include <sys/msg.h>        // for: msgget(), msgctl(), msgsnd(), IPC_PRIVATE...
 #include <sys/stat.h>       // for: S_IWUSR
 
 static int clientId;
